@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="library3" translatesAutoresizingMaskIntoConstraints="NO" id="Rnq-4y-DhJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" alpha="0.89999997615814209" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="newuibg" highlightedImage="background" translatesAutoresizingMaskIntoConstraints="NO" id="28r-K9-DJU">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groupittext" translatesAutoresizingMaskIntoConstraints="NO" id="99q-0e-1uC">
+                                <rect key="frame" x="2" y="215" width="320" height="102"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Rnq-4y-DhJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="E0m-H4-c7w"/>
+                            <constraint firstItem="28r-K9-DJU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="IEH-WU-lSf"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="99q-0e-1uC" secondAttribute="bottom" constant="251" id="IZI-Sw-J56"/>
+                            <constraint firstItem="99q-0e-1uC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-14" id="IvF-TU-kvE"/>
+                            <constraint firstItem="28r-K9-DJU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="RUN-RH-x7A"/>
+                            <constraint firstItem="99q-0e-1uC" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="195" id="UTS-Hd-NiS"/>
+                            <constraint firstAttribute="trailing" secondItem="Rnq-4y-DhJ" secondAttribute="trailing" id="Y5a-R8-c8Y"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="28r-K9-DJU" secondAttribute="bottom" id="ZSe-BZ-mc5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="99q-0e-1uC" secondAttribute="trailing" constant="-18" id="fOR-cX-4tQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Rnq-4y-DhJ" secondAttribute="bottom" id="kQd-dm-uZe"/>
+                            <constraint firstItem="Rnq-4y-DhJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kUA-Ya-Xha"/>
+                            <constraint firstAttribute="trailing" secondItem="28r-K9-DJU" secondAttribute="trailing" id="req-7i-yv8"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="2304" height="2992"/>
+        <image name="groupittext" width="2304" height="2992"/>
+        <image name="library3" width="2000" height="1000"/>
+        <image name="newuibg" width="2304" height="2992"/>
+    </resources>
+</document>
